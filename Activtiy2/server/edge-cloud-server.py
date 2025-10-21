@@ -7,9 +7,8 @@ from ultralytics import YOLO
 import time
 import boto3
 import json
-from dotenv import load_dotenv
 import os
-
+from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
